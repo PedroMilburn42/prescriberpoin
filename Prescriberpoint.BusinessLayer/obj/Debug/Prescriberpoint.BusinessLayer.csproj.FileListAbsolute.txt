@@ -1,0 +1,14 @@
+C:\prescriberpoint\Code\Prescriberpoint.BusinessLayer\bin\Debug\Web.config
+C:\prescriberpoint\Code\Prescriberpoint.BusinessLayer\bin\Debug\Web.Debug.config
+C:\prescriberpoint\Code\Prescriberpoint.BusinessLayer\bin\Debug\Web.Release.config
+C:\prescriberpoint\Code\Prescriberpoint.BusinessLayer\bin\Debug\Prescriberpoint.BusinessLayer.dll
+C:\prescriberpoint\Code\Prescriberpoint.BusinessLayer\bin\Debug\Prescriberpoint.BusinessLayer.pdb
+C:\prescriberpoint\Code\Prescriberpoint.BusinessLayer\bin\Debug\Prescriberpoint.BusinessObjects.dll
+C:\prescriberpoint\Code\Prescriberpoint.BusinessLayer\bin\Debug\Prescriberpoint.DataLayer.dll
+C:\prescriberpoint\Code\Prescriberpoint.BusinessLayer\bin\Debug\Prescriberpoint.BusinessObjects.pdb
+C:\prescriberpoint\Code\Prescriberpoint.BusinessLayer\bin\Debug\Prescriberpoint.DataLayer.pdb
+C:\prescriberpoint\Code\Prescriberpoint.BusinessLayer\bin\Debug\Prescriberpoint.DataLayer.dll.config
+C:\prescriberpoint\Code\Prescriberpoint.BusinessLayer\obj\Debug\Prescriberpoint.BusinessLayer.csprojAssemblyReference.cache
+C:\prescriberpoint\Code\Prescriberpoint.BusinessLayer\obj\Debug\Prescriberpoint.BusinessLayer.csproj.CopyComplete
+C:\prescriberpoint\Code\Prescriberpoint.BusinessLayer\obj\Debug\Prescriberpoint.BusinessLayer.dll
+C:\prescriberpoint\Code\Prescriberpoint.BusinessLayer\obj\Debug\Prescriberpoint.BusinessLayer.pdb

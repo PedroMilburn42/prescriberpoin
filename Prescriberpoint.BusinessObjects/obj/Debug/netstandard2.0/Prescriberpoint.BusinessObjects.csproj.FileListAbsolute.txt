@@ -1,0 +1,8 @@
+C:\prescriberpoint\Code\Prescriberpoint.BusinessObjects\bin\Debug\netstandard2.0\Prescriberpoint.BusinessObjects.deps.json
+C:\prescriberpoint\Code\Prescriberpoint.BusinessObjects\bin\Debug\netstandard2.0\Prescriberpoint.BusinessObjects.dll
+C:\prescriberpoint\Code\Prescriberpoint.BusinessObjects\bin\Debug\netstandard2.0\Prescriberpoint.BusinessObjects.pdb
+C:\prescriberpoint\Code\Prescriberpoint.BusinessObjects\obj\Debug\netstandard2.0\Prescriberpoint.BusinessObjects.csprojAssemblyReference.cache
+C:\prescriberpoint\Code\Prescriberpoint.BusinessObjects\obj\Debug\netstandard2.0\Prescriberpoint.BusinessObjects.AssemblyInfoInputs.cache
+C:\prescriberpoint\Code\Prescriberpoint.BusinessObjects\obj\Debug\netstandard2.0\Prescriberpoint.BusinessObjects.AssemblyInfo.cs
+C:\prescriberpoint\Code\Prescriberpoint.BusinessObjects\obj\Debug\netstandard2.0\Prescriberpoint.BusinessObjects.dll
+C:\prescriberpoint\Code\Prescriberpoint.BusinessObjects\obj\Debug\netstandard2.0\Prescriberpoint.BusinessObjects.pdb
