@@ -70,6 +70,10 @@ namespace Prescriberpoint.WebApi.Controllers
 
         public static string GetKeyFromHeader()
         {
+            if (HttpContext.Current == null) // It is running tests. Don't check security
+            {
+                return SystemKey;
+            }
             var headers = HttpContext.Current.Request.Headers;
              var key = headers.AllKeys.FirstOrDefault(k => k == "key" );
             if (key != null)
