@@ -1,10 +1,10 @@
 # Prescriberpoint Web Api 
 
-Prescriberpoint Web Api is a WebSite implemented .NET Framework 4.7.2. It receives a Rest HTTP Requests to handle CRUD for users. It can be tested with PostMan adding a secret key for authentication in the headers.
-It uses a local SQL Database to create, update, get and delete users. A specific web application has not been implemented and it has to be tested with Postman, Fiddler or any other tool for creating HttpRequests.
-3 different test projects have been added with user cases to test the Presentation (controller) layer, the business layer and the data layer.
+Prescriberpoint Web Api is a WebSite implemented in .NET Framework 4.7.2. It receives Rest HTTP Requests to handle CRUD for users. It can be tested with PostMan adding a secret key for authentication in the headers.
+It uses a Visual Studio's local SQL Database to create, update, get and delete users. A specific web application has not been implemented and it has to be tested with Postman, Fiddler or any other tool for creating HttpRequests.
+3 different test projects have been added with user cases to test the Presentation (controller) layer, the business layer and the data layer. Docker has not been used in this project.
 
-These are the user stories
+These are the user stories:
 
 1.As a user I can login to the system and create another user.
 
@@ -20,12 +20,12 @@ These are the user stories
 
 ## Installation
 
-Install VS 2019 or a later version and click on the "sln" file on the root folder. Execute the project. Another alternative is to add the code to IIS and map a virtual directory.
+Install VS 2019 or a later version and click on the ".sln" file on the root folder. Execute the project.
 
 To run the tests, click on the Test menu VS 2019. It has a database connection string pointing to #
 
 #### |DataDirectory|\Prescriberpoint.mdf
-The database should initially be empty when added to Github or downloaded in order to not fill to much disk. The unit tests adds data and finally deletes everything, leaving an empty database. There are 2 different databases, one for the Web Api and another for the tests.
+The database has one record added to test the request but should initially be empty when added to Github or downloaded in order to not fill to much disk. The unit tests adds data and finally deletes everything, leaving an empty database. There are 2 different databases, one for the Web Api and another for the tests.
 
 ## Database 
 
@@ -39,11 +39,23 @@ CREATE TABLE [dbo].[users] (
     PRIMARY KEY CLUSTERED ([UserId] ASC)
 );
 
+### Add a user with SQL
+
+insert into users(firstname,lastname, password,isAdmin) values('Anders','Svensson','123',1)
+
 ### Data handling, alter database, delete records
-To handle the database data, I have used the menu Server Explorer in VS
+To handle the database data, I have used the menu Server Explorer in VS.
 
 ## Authentication
 For a authentication I have a created a secret key that is hardcoded. This key is validated for all the request and has been added for testing purposes. It is a good idea move that key to a more secure storage and encrypt/decrypt it. The secret key can easily be removed to add other authentication methods like OAuth.
+
+## Sample Request
+
+http://localhost:61035/api/user/3
+
+Secret key in Postman to add header in the format (key, value)
+
+(key, 54622F7D-8A9D-4CC3-8A0D-ADD1DBAB07C9)
 
 ## Author
 
